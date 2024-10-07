@@ -5,7 +5,7 @@ Department of Informatics
 stalj@uek.krakow.pl
 -->
 
-# TYPES, VARIABLES AND OPERATORS
+# TYPES, VARIABLES AND OPERATORS:
 
 ## 1. Interactive and Script Modes
 
