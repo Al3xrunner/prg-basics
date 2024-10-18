@@ -6,13 +6,17 @@
 # from the dice, the computer prints True. Otherwise,
 # the computer prints False.
 #
+
 import random
-# COMPUTER TURN
-computer = random.randint(1,6)
-# YOUR TURN
-you = int(input('Your guess: '))
-print(f"Computer's number: {computer}")
-if you == computer:
-    print('You won!')
-else:
-    print('You lost!')
+game = True
+while game:
+    # COMPUTER TURN
+    computer = random.randint(1,6)
+    # YOUR TURN
+    you = int(input('Your guess: '))
+    print(f"Computer's number: {computer}")
+    if you == computer:
+        print('You won!')
+        game = False
+    else:
+        print('You lost!')
