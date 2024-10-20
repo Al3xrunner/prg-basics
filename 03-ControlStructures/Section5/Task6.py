@@ -8,5 +8,6 @@ i = 1
 while i < N + 1:
     if i % 2 == 0:
         sum_even += i
+    i += 1
 
 print(f"The sum of even numbers from 1 to {N} is: {sum_even}")
