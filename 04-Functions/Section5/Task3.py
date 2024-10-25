@@ -12,5 +12,5 @@ def input_real(message):
     return float(input(message))
 
 def input_boolean(message):
-    return bool(input(message))
+    return bool(int(input(message)))
 
